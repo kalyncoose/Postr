@@ -36,7 +36,7 @@ contract Post {
     }
 }
 ```
-Ethereum smart contracts are written in [Solidity](https://docs.soliditylang.org/), a high-level Object-Oriented language which is statically typed. This means that contracts are first written, compiled, then deployed to the blockchain. `Web3.js` allows the `Vue.js` app to communicate to the testnet and invoke the smart contract's `post()` method. By doing so, it creates a Transaction Hash which can be used to query the blockchain for the transaction.
+Ethereum smart contracts are written in [Solidity](https://docs.soliditylang.org/), a high-level Object-Oriented language which is statically typed. This means that contracts are first written, compiled, then deployed to the blockchain. `Web3.js` allows the `Vue.js` app to communicate to the Testnet and invoke the smart contract's `post()` method. By doing so, it creates a Transaction Hash which can be used to query the blockchain for the transaction.
 
 ## Considerations
 **Postr** was created as an exhibition to show the potential of a decentralized social media platform. Currently, Ethereum 1.0 requires a small gas fee in order to submit smart contracts to the blockchain. This gas fee is used to compensate the miner with a reward when the block is processed. This system is called "Proof of Work," but Ethereum 2.0 will move to a staking model. The new staking system should bring the barrier-to-entry to a minimum, where currently paying a fee to post a message is not a viable model.
