@@ -22,3 +22,14 @@ Social media platforms are said to be the *"town square of the 21st century"*. M
 The blockchain for Postr was setup and tested in a local Ethereum testnet using [Ganache](https://www.trufflesuite.com/ganache). It communicates over an RPC Server at `http://127.0.0.1:7545`. The gif below shows the accounts, blocks, transactions and contracts associated with the testnet. The `Post` contract is what initiates the "tweet" and stores the message on the blockchain. For example, you can see the hex stored is `0x746573742061626320313233` which translates to `test abc 123` in UTF-8.
 
 ![testnet.gif](testnet.gif)
+
+## Considerations
+Postr was created as an exhibition to show the potential of a decentralized social media platform. Currently, Ethereum 1.0 requires a small gas fee in order to submit smart contracts to the blockchain. This gas fee is used to compensate the miner with a reward when the block is processed. This system is called "Proof of Work," but Ethereum 2.0 will move to a staking model. The new staking system should bring the barrier-to-entry to a minimum, where currently paying a fee to post a message is not a viable model.
+
+## Upgrades
+Future upgrades to Postr may include:
+* Integrate [InterPlanetary File System](https://ipfs.io/) (IPFS) to post decentralized media content, such as images or videos
+* Add the ability to post multiple messages, dynamically creating a list of posts
+* Create a NoSQL database to store Transaction Hashes, which can be used to dynamically populate posts
+* Provide Gravatar option for users to help recognize each other
+* And much more
