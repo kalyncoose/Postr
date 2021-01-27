@@ -48,3 +48,5 @@ Future upgrades to **Postr** may include:
 * Create a NoSQL database to store Transaction Hashes, which can be used to dynamically populate posts
 * Provide Gravatar option for users to help recognize each other
 * And much more
+
+*A separate ReadMe file will be created with a complete tutorial on how to setup **Postr** for local development.*
