@@ -7,6 +7,7 @@
 
 Postr showcases a Twitter-like decentralized app (dApp) where Tweets are stored anonymously on the blockchain.
 
+![builtwith.png](builtwith.png)
 ![demo.gif](demo.gif)
 
 ## How does it work?
