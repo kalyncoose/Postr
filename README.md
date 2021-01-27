@@ -17,3 +17,6 @@ Social media platforms are said to be the *"town square of the 21st century"*. M
 
 ## How does it work?
 ![howitworks.png](howitworks.png)
+
+## Testnet
+![testnet.gif](testnet.gif)
