@@ -1,0 +1,26 @@
+{
+  "accounts": {
+    "0": "0xBe28dB3a5F03c9EF6bc4C7792f692575077550d3"
+  },
+  "accountBalances": {
+    "0xBe28dB3a5F03c9EF6bc4C7792f692575077550d3": "96540426120000000000"
+  },
+  "contracts": {
+    "Post": {
+      "initialized": true,
+      "synced": true,
+      "storedData": {},
+      "events": []
+    }
+  },
+  "currentBlock": {},
+  "drizzleStatus": {
+    "initialized": true
+  },
+  "transactions": {},
+  "transactionStack": [],
+  "web3": {
+    "status": "initialized",
+    "networkId": 5777
+  }
+}

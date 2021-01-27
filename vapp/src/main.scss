@@ -1,0 +1,9 @@
+@import "~vue-material/dist/theme/engine"; // Import the theme engine
+
+@include md-register-theme("default", (
+primary: #1DA1F2, // The primary color of your application // 1DA1F2
+accent: #1DA1F2, // The accent or secondary color
+theme: dark
+));
+
+@import "~vue-material/dist/theme/all"; // Apply the theme
