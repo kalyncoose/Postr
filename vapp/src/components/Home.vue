@@ -85,7 +85,7 @@ export default {
       this.stackID = this.drizzleInstance.contracts[this.contractName].methods[this.method].cacheSend(convertedInputs)
       this.txAddr = this.activeAccount
       this.txDate = new Date()
-      setTimeout(this.refresh,3000)
+      setTimeout(this.refresh,1000)
     },
     refresh() {
       var contractString = stringify(this.contractInstances)
@@ -93,7 +93,7 @@ export default {
       // eslint-disable-next-line no-console
       console.log(this.contractObject)
       if (this.contractObject.Post.events.length == 0)
-        setTimeout(this.refresh, 3000)
+        setTimeout(this.refresh, 1000)
       else {
         var event = this.contractObject.Post.events[this.stackID]
         this.txHash = event.transactionHash
