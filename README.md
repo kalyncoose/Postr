@@ -5,9 +5,11 @@
 ![Framework](https://img.shields.io/badge/Development-Node.js-181c2d?style=flat-square&logo=Node.js)
 ![Framework](https://img.shields.io/badge/Design-Vue%20Material-181c2d?style=flat-square&logo=Material%20Design)
 
+![builtwith.png](builtwith.png)
+
 Postr showcases a Twitter-like decentralized app (dApp) where Tweets are stored anonymously on the blockchain.
 
-![builtwith.png](builtwith.png)
+## Demo
 ![demo.gif](demo.gif)
 
 ## How does it work?
