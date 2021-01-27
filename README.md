@@ -10,3 +10,4 @@ Postr showcases a Twitter-like decentralized app (dApp) where Tweets are stored 
 ![demo.gif](demo.gif)
 
 ## How does it work?
+![howitworks.png](howitworks.png)
