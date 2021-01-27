@@ -10,7 +10,7 @@
 Postr showcases a Twitter-like decentralized app (dApp) where Tweets are stored anonymously on the blockchain.
 
 ## Abstract
-Social media platforms are said to be the *"town square of the 21st century"*. Millions of people rely on news and opinion from these platforms every day, which introduces a new problem of consolidated power over information. Ethereum Co-founder, Vitalik Buterin, [proposed](https://blockonomi.com/ethereum-blockchain-censorship/) that the blockchain could be used to create a censorship-free platform. Postr showcases this idea with the ability to send, store, and read a message entirely on the blockchain by using smart contracts.
+Social media platforms are said to be the *"town square of the 21st century"*. Millions of people rely on news and opinion from these platforms every day, which introduces a new problem of consolidated power over information. Ethereum Co-founder, Vitalik Buterin, [proposed](https://blockonomi.com/ethereum-blockchain-censorship/) that the blockchain could be used to create a censorship-free platform. Postr demonstrates this idea with the ability to send, store, and read a message entirely on the blockchain by using smart contracts.
 
 ## Demo
 ![demo.gif](demo.gif)
