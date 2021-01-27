@@ -19,12 +19,12 @@ Social media platforms are said to be the *"town square of the 21st century"*. M
 ![howitworks.png](howitworks.png)
 
 ## Where's the Blockchain?
-The blockchain for **Postr** was setup and tested in a local Ethereum testnet using [Ganache](https://www.trufflesuite.com/ganache). It communicates over an RPC Server at `http://127.0.0.1:7545`. The gif below shows the accounts, blocks, transactions and contracts associated with the Testnet. The `Post` contract is what initiates the "tweet" and stores the message on the blockchain. For example, you can see the hex stored is `0x746573742061626320313233` which translates to `test abc 123` in UTF-8.
+The blockchain for **Postr** was setup and tested in a local Ethereum Testnet using [Ganache](https://www.trufflesuite.com/ganache). It communicates over an RPC Server at `http://127.0.0.1:7545`. The gif below shows the accounts, blocks, transactions and contracts associated with the Testnet. The `Post` contract is what initiates the "tweet" and stores the message on the blockchain. For example, you can see the hex stored is `0x746573742061626320313233` which translates to `test abc 123` in UTF-8.
 
 ![testnet.gif](testnet.gif)
 
 ## What's a Smart Contract?
-The smart contract is the primary mechanism for interacting with the Ethereum blockchain. A smart contract can store information, communicate with applications, or even chain smart contracts together to create robust end products. **Postr** has only one smart contract called `Post` where it stores a message as a type `string` and emits an event. This is as simple as it gets.
+The smart contract is the primary mechanism for interacting with the Ethereum blockchain. A smart contract can store information, compute business logic, communicate with external applications, or even chain smart contracts together to create robust end products. **Postr** has only one smart contract called `Post` where it stores a message as a type `string` and emits an event. This is as simple as it gets.
 ```Solidity
 contract Post {
     event StorageSet(string _message);
